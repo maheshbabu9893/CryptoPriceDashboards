@@ -1,5 +1,41 @@
-# Vue 3 + TypeScript + Vite
+# Crypto Price Tracker
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A real-time cryptocurrency price tracking dashboard built with Vue 3.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Tech Stack
+
+- Vue 3 + TypeScript
+- Vite
+- Vuetify 4
+- Pinia (State Management)
+- Vue Router
+- Plotly.js (Charts)
+- CoinGecko API
+
+## Features
+
+- Real-time crypto price tracking
+- Interactive price charts
+- Customizable dashboard with drag-and-drop widgets
+- Search functionality
+- Watchlist management
+- Asset detail views
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Testing
+
+```bash
+npm run test
+```
