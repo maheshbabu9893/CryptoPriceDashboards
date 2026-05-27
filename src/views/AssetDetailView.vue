@@ -12,7 +12,7 @@
       <p class="mt-4 text-medium-emphasis">Loading asset details...</p>
     </div>
 
-    <!-- error -->
+    <!-- error/retry -->
     <v-alert v-else-if="error" type="error" variant="tonal" class="mb-4">
       {{ error }}
       <template #append>
